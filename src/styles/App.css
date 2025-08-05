@@ -1,0 +1,14 @@
+body{
+  background-color: white;
+  width: 750px;
+  margin: auto;
+}
+.header{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.office-image{
+  width: 500px;
+}
