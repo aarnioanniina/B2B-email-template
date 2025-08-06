@@ -1,8 +1,15 @@
+@import 'variables'; 
+
 .content {
   justify-content: center;
   text-align: start;
   display: flex;
   flex-direction: column;
+  color: $text-color;
+
+  a{
+    color: black;
+  }
 
   .list{
     padding-bottom: 32px;

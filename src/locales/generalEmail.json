@@ -1,0 +1,22 @@
+{
+  "fi": {
+    "HeaderComponent": {
+      "header": "5 % alennus liittymällä IKEA Business Networkiin",
+      "caption": "Viestin vastaanottaja: {companyName}"
+    },
+    "Content": {
+      "header": "Kesätervehdys IKEA Yritysmyynnistä",
+      "text1": "<p>Hej,</p>Tiesitkö, että IKEA tarjoaa kattavat palvelut myös yrityksille? Tämän lisäksi tarjoamme yrityksellesi 5% alennuksen ensimmäisestä tilauksestasi kun liityt IKEA Business Network -jäseneksi.",
+      "list": {
+        "heading": "Lunasta 5% etu* näin:",
+        "items": [
+          "Liity veloituksetta IKEA Business Network jäseneksi <a href=\"#\">täältä</a>.",
+          "Lähetä yhteydenottopyyntö, tilaus tai varaa aika sisustussuunnittelupalveluun alla olevasta linkistä"
+        ]
+      },
+      "buttonLabel": "Lunasta etu ja siirry tilaamaan",
+      "text2": "*Etu on lunastettavissa vain tämän sähköpostin kautta ja etu on voimassa etämyynnin palveluissamme (tilauslomake, yritysmyyjän etätapaaminen sekä sisustussuunnittelupalvelu etänä). Edun viimeinen voimassaolopäivä on ",
+      "text3": "Huomathan että etua ei voi käyttää palveluiden tai lahjakorttien maksamiseen eikä sitä voi yhdistää muihin tarjouksiin."
+    }
+  }
+}
