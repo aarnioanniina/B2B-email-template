@@ -1,0 +1,20 @@
+.content {
+  justify-content: center;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+
+  .list{
+    padding-bottom: 32px;
+    padding-left: 20px;
+    margin: 0;
+    li{
+      font-size: 14px;
+      line-height: 24px;
+    }
+}
+
+.button-content{
+  padding-bottom: 32px;
+}
+}
