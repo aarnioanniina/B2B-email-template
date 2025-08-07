@@ -17,6 +17,22 @@
       "buttonLabel": "Lunasta etu ja siirry tilaamaan",
       "text2": "*Etu on lunastettavissa vain tämän sähköpostin kautta ja etu on voimassa etämyynnin palveluissamme (tilauslomake, yritysmyyjän etätapaaminen sekä sisustussuunnittelupalvelu etänä). Edun viimeinen voimassaolopäivä on ",
       "text3": "Huomathan että etua ei voi käyttää palveluiden tai lahjakorttien maksamiseen eikä sitä voi yhdistää muihin tarjouksiin."
+    },
+    "InfoContainer": {
+      "header1": "Lisäetu: Sisustussuunnittelua veloituksetta",
+      "Section1": {
+        "text1": "5% edun lisäksi Sisustussuunnittelupalvelu nyt IKEA Business Network -jäsenille ilmaiseksi 1.6. - 31.8.2025 (normaali hinta: 99,-). Huomioithan, että etu koskee vain kampanja-aikana tehtyjä ajanvarauksia."
+      },
+      "header2": "IKEA Yritystiliasiakkuus",
+      "Section2": {
+        "text1": "Maksat kaikki ostoksesi helposti ja ilman kuluja. Saat yksilöidyn laskun ostoista kirjanpitoosi ja jopa 30 päivää maksuaikaa.",
+        "link": "Hae yritystiliä"
+      },
+      "header3": "IKEA Business Network",
+      "Section3": {
+        "text1": "Liity nyt jäseneksi ja hyödynnä jäsentarjoukset.",
+        "link": "Tutustu jäsenyyteen"
+      }
     }
   }
 }

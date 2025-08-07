@@ -1,6 +1,7 @@
 import '../styles/Content.scss';
 import Button from './Button';
 import { t } from '../i18n';
+import InfoContainer from './infoContainer';
 
 function Content() {
 
@@ -22,6 +23,7 @@ function Content() {
             </div>
             <p>{t('Content.text2')} <strong>{date}.</strong></p>
             <p> {t('Content.text3')}</p>
+            <InfoContainer />
         </div>
     );
 }
