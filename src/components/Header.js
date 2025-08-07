@@ -8,16 +8,12 @@ function Header() {
   return (
     <div className="header">
       <div className="header-top">
-        <a rel="noreferrer" href="https://www.ikea.com/fi/fi/" target="_blank">
+        <a rel="noreferrer" href={t("Links.Ikea")} target="_blank">
           <img src={images.ikeaLogoSmall} alt="ikea-logo" />
         </a>
       </div>
       <h1 className="header-title">{t("HeaderComponent.header")}</h1>
-      <a
-        rel="noreferrer"
-        href="https://www.ikea.com/fi/fi/ikea-business/"
-        target="_blank"
-      >
+      <a rel="noreferrer" href={t("Links.ikeaBusiness")} target="_blank">
         <img
           className="office-image"
           src={images.defaultOffice}

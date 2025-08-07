@@ -41,6 +41,20 @@
       "privacyText": "Yksityisyys ja tietosuoja",
       "unsubscribeText": "Lopeta uutiskirjeen tilaus",
       "sentBy": "Tämän sähköpostin on lähettänyt IKEA © Inter IKEA Systems B.V. 2025"
+    },
+    "Links": {
+      "Ikea": "https://www.ikea.com/fi/fi/",
+      "ikeaBusiness": "https://www.ikea.com/fi/fi/ikea-business/",
+      "ikeaBusinessNetwork": "https://www.ikea.com/fi/fi/ikea-business/network/",
+      "BusinessContactForm": "https://survey.alchemer.eu/s3/90836405/IKEA-yrityspalvelu-yhteydenottolomake?IBN=kampanja&id=${companyId}",
+      "BusinessCustomerJoin": "https://www.ikea.com/fi/fi/customer-service/services/finance-options/ikea-yritystiliasiakkuus-pubed4e8280/",
+      "IkeaFacebook": "https://www.facebook.com/ikeasuomi",
+      "IkeaInstagram": "https://www.instagram.com/ikeasuomi/#/",
+      "IkeaYoutube": "https://www.youtube.com/ikeasuomi",
+      "IkeaContactUs": "https://www.ikea.com/fi/fi/ikea-business/contact-us/",
+      "IkeaTerms": "https://www.ikea.com/fi/fi/customer-service/terms-conditions/",
+      "IkeaPrivacy": "https://www.ikea.com/fi/fi/customer-service/privacy-security/",
+      "IkeaUnsubscribe": "https://survey.alchemer.eu/s3/90872184/IKEA-B2B-Marketing-Email-Unsubscribe-Link?id=${companyId}"
     }
   }
 }

@@ -10,26 +10,26 @@ function Footer() {
       <div className="data-source">
         <p>{t("Footer.dataSourceText")}</p>
       </div>
-      <a rel="noreferrer" href="https://www.ikea.com/fi/fi/" target="_blank">
+      <a rel="noreferrer" href={t("Links.Ikea")} target="_blank">
         <img src={images.ikeaLogoSmall} alt="ikea-logo" />
       </a>
       <div className="sosical-media">
         <a
-          href="https://www.facebook.com/ikeasuomi"
+          href={t("Links.IkeaFacebook")}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Icon height="40px" src={images.iconFacebook} alt="Facebook" />
         </a>
         <a
-          href="https://www.instagram.com/ikeasuomi/#"
+          href={t("Links.IkeaInstagram")}
           target="_blank"
           rel="noopener noreferrer"
         >
           <Icon height="40px" src={images.iconInstagram} alt="Instagram" />
         </a>
         <a
-          href="https://www.youtube.com/ikeasuomi"
+          href={t("Links.IkeaYoutube")}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -37,30 +37,18 @@ function Footer() {
         </a>
       </div>
       <div className="privacy-policy">
-        <a
-          target="_blank"
-          href="https://www.ikea.com/fi/fi/ikea-business/contact-us/"
-          rel="noreferrer"
-        >
+        <a target="_blank" href={t("Links.IkeaContactUs")} rel="noreferrer">
           {t("Footer.contactUsText")}
         </a>
-        <a
-          target="_blank"
-          href="https://www.ikea.com/fi/fi/customer-service/terms-conditions/"
-          rel="noreferrer"
-        >
+        <a target="_blank" href={t("Links.IkeaTerms")} rel="noreferrer">
           {t("Footer.termsText")}
         </a>
-        <a
-          target="_blank"
-          href="https://www.ikea.com/fi/fi/customer-service/privacy-security/"
-          rel="noreferrer"
-        >
+        <a target="_blank" href={t("Links.IkeaPrivacy")} rel="noreferrer">
           {t("Footer.privacyText")}
         </a>
         <a
           target="_blank"
-          href={`https://survey.alchemer.eu/s3/90872184/IKEA-B2B-Marketing-Email-Unsubscribe-Link?id=${companyId}`}
+          href={t("Links.IkeaUnsubscribe", { companyId: companyId })}
           rel="noreferrer"
         >
           {t("Footer.unsubscribeText")}
