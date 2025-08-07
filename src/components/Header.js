@@ -8,7 +8,9 @@ function Header() {
   return (
     <div className="header">
       <div className="header-top">
-        <img src={images.ikeaLogoSmall} alt="ikea-logo" />
+        <a rel="noreferrer" href="https://www.ikea.com/fi/fi/" target="_blank">
+          <img src={images.ikeaLogoSmall} alt="ikea-logo" />
+        </a>
       </div>
       <h1 className="header-title">{t("HeaderComponent.header")}</h1>
       <a

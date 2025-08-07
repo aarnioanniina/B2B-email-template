@@ -6,11 +6,11 @@
     },
     "Content": {
       "header": "Kesätervehdys IKEA Yritysmyynnistä",
-      "text1": "<p>Hej,</p>Tiesitkö, että IKEA tarjoaa kattavat palvelut myös yrityksille? Tämän lisäksi tarjoamme yrityksellesi 5% alennuksen ensimmäisestä tilauksestasi kun liityt IKEA Business Network -jäseneksi.",
+      "text1": "<p>Hej,</p>Tiesitkö, että IKEA tarjoaa <a target=\"_blank\" href=\"https://www.ikea.com/fi/fi/ikea-business/\">kattavat palvelut</a> myös yrityksille? Tämän lisäksi tarjoamme yrityksellesi 5% alennuksen ensimmäisestä tilauksestasi kun liityt IKEA Business Network -jäseneksi.",
       "list": {
         "heading": "Lunasta 5% etu* näin:",
         "items": [
-          "Liity veloituksetta IKEA Business Network jäseneksi <a href=\"#\">täältä</a>.",
+          "Liity veloituksetta IKEA Business Network jäseneksi <a target=\"_blank\" href=\"https://www.ikea.com/fi/fi/ikea-business/network/\">täältä</a>.",
           "Lähetä yhteydenottopyyntö, tilaus tai varaa aika sisustussuunnittelupalveluun alla olevasta linkistä"
         ]
       },
@@ -33,6 +33,14 @@
         "text1": "Liity nyt jäseneksi ja hyödynnä jäsentarjoukset.",
         "link": "Tutustu jäsenyyteen"
       }
+    },
+    "Footer": {
+      "dataSourceText": "Lähetämme tämän markkinointiviestin julkisista tietokannoista saatavilla oleville, markkinoinnin kohderymään tunnistamillemme yrityksille.",
+      "contactUsText": "Ota meihin yhteyttä",
+      "termsText": "Ehdot",
+      "privacyText": "Yksityisyys ja tietosuoja",
+      "unsubscribeText": "Lopeta uutiskirjeen tilaus",
+      "sentBy": "Tämän sähköpostin on lähettänyt IKEA © Inter IKEA Systems B.V. 2025"
     }
   }
 }

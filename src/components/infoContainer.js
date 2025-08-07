@@ -31,7 +31,7 @@ function InfoContainer({ label, onClick }) {
             <p>{t("InfoContainer.Section2.text1")}</p>
             <a
               rel="noreferrer"
-              href="https://www.ikea.com/fi/fi/ikea-business/"
+              href="https://www.ikea.com/fi/fi/customer-service/services/finance-options/ikea-yritystiliasiakkuus-pubed4e8280/"
               target="_blank"
             >
               <p>{t("InfoContainer.Section2.link")}</p>
@@ -47,7 +47,7 @@ function InfoContainer({ label, onClick }) {
             <a
               className="link"
               rel="noreferrer"
-              href="https://www.ikea.com/fi/fi/ikea-business/"
+              href="https://www.ikea.com/fi/fi/ikea-business/network/"
               target="_blank"
             >
               <p>{t("InfoContainer.Section3.link")}</p>
