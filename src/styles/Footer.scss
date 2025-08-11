@@ -44,3 +44,13 @@
     }
   }
 }
+
+@media (max-width: 640px) {
+  .footer-container {
+    .data-source {
+      p {
+        text-align: start;
+      }
+    }
+  }
+}
