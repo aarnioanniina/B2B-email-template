@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap");
 
-body {      
-    font-family: 'Noto IKEA', 'Noto Sans', 'Roboto', Arial, sans-serif;
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto IKEA", "Noto Sans", "Roboto", Arial, sans-serif;
 }
 
-p{
-   padding-bottom: 32px;
-  font-family: 'Noto IKEA','Noto Sans','Roboto',Arial,sans-serif;
+p {
+  padding-bottom: 32px;
+  font-family: "Noto IKEA", "Noto Sans", "Roboto", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
   color: #484848;
