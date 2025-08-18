@@ -1,9 +1,8 @@
-import "../styles/Footer.scss";
+import React from "react";
 import { t } from "../i18n";
 import Icon from "./Icon";
-import images from "../images/images";
 
-function Footer() {
+const Footer = () => {
   const companyId = "123456"; // Replace with actual company ID if needed
   return (
     <div className="footer-container">
@@ -11,7 +10,10 @@ function Footer() {
         <p>{t("Footer.dataSourceText")}</p>
       </div>
       <a rel="noreferrer" href={t("Links.Ikea")} target="_blank">
-        <img src={images.ikeaLogoSmall} alt="ikea-logo" />
+        <img
+          src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/2a27b449-60e5-4c88-bddf-7f7286f2df68.png"
+          alt="ikea-logo"
+        />
       </a>
       <div className="sosical-media">
         <a
@@ -19,21 +21,33 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Icon height="40px" src={images.iconFacebook} alt="Facebook" />
+          <Icon
+            height="40px"
+            src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/e771c26c-acb2-41f1-886e-5c5afeefac45.png"
+            alt="Facebook"
+          />
         </a>
         <a
           href={t("Links.IkeaInstagram")}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Icon height="40px" src={images.iconInstagram} alt="Instagram" />
+          <Icon
+            height="40px"
+            src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/11893e1a-cdee-4701-a66e-93b9297b9640.png"
+            alt="Instagram"
+          />
         </a>
         <a
           href={t("Links.IkeaYoutube")}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Icon height="40px" src={images.iconYoutube} alt="YouTube" />
+          <Icon
+            height="40px"
+            src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/cd61d3f3-37a3-4d28-a0d1-6e70017fd670.png"
+            alt="YouTube"
+          />
         </a>
       </div>
       <div className="privacy-policy">
@@ -59,6 +73,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;
