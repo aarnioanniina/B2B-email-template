@@ -8,3 +8,27 @@
   font-family: "Noto IKEA", "Noto Sans", "Roboto", Arial, sans-serif;
   cursor: pointer;
 }
+
+.exportButton {
+  background-color: #0058a3;
+  color: #fff;
+  font-family: "Noto IKEA", "Noto Sans", "Roboto", Arial, sans-serif;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: 1px solid #0058a3;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  transition: background 0.2s, border 0.2s, color 0.2s;
+}
+
+.exportButton:hover {
+  background-color: #007cc7;
+  border-color: #007cc7;
+}
+
+.exportButton:active {
+  background-color: #003b71;
+  border-color: #003b71;
+}

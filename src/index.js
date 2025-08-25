@@ -8,7 +8,7 @@ import ExportButton from "./components/ExportButton";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <MainLayout />
     <ExportButton onExport={() => console.log("Exporting data...")} />
+    <MainLayout />
   </React.StrictMode>
 );
