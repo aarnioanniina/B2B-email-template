@@ -18,6 +18,24 @@
     justify-content: center;
     gap: 1rem;
     padding: 2rem 0;
+    .icon-link {
+      width: 40px;
+      height: 40px;
+      border: 1px solid rgb(var(--colour-neutral-3, 223, 223, 223));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      svg {
+        color: #484848;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+      }
+    }
   }
 
   .privacy-policy {

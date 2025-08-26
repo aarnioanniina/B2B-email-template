@@ -5,7 +5,7 @@ import InfoContainer from "./infoContainer";
 
 const Content = () => {
   const list = t("Content.list");
-  const date = "6.8.2025";
+  const date = "16.9.2025";
   const companyId = "{companyId}"; // Example company ID, replace with actual logic to get the ID
 
   return (
