@@ -35,4 +35,8 @@ ${inlinedHtml}
 const outputPath = path.resolve("./build/email.html");
 fs.writeFileSync(outputPath, finalHtml);
 
+console.log("MainLayout loaded:", typeof MainLayout);
+console.log("HTML rendered:", html.length);
+console.log("CSS loaded:", css.length);
+
 console.log(`✅ Email template generated: ${outputPath}`);

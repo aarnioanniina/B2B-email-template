@@ -8,6 +8,7 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "js-yaml": "^4.1.0",
+    "juice": "^11.0.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-modal": "^3.16.3",
@@ -39,5 +40,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/register": "^7.28.3"
   }
 }
