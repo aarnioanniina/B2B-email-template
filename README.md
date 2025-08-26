@@ -43,14 +43,15 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to use the a
 npm test
 ```
 
-### Building for Production
+### Exporting HTML template file
+
+To generate the latest email.html file, open your terminal and run:
+
 
 ```bash
-npm run build
+npm run export-email
 ```
 
-The optimized build will be in the `build` folder.
+The exported file will be saved to the build/email.html folder.
 
-## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request.
