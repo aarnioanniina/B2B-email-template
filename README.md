@@ -37,8 +37,9 @@ Both commands should print version numbers.
 
 Clone the repository and install dependencies:
 
+Replace **YOUR_USERNAME** with your actual GitHub username:
 ```bash
-git clone https://github.com/your-username/B2B-email-template.git
+git clone https://github.com/your_username/B2B-email-template.git
 cd B2B-email-template
 npm install
 ```
