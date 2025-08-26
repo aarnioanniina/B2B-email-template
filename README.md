@@ -14,10 +14,26 @@ A reusable, customizable email template generator for B2B communications. Easily
 
 ### Prerequisites
 
-- Node.js (v14 or higher recommended)
-- npm (v6 or higher)
+Before you begin, make sure you have the following installed:
 
-### Installation
+- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- [npm](https://www.npmjs.com/) (v6 or higher)
+
+## Windows & macOS
+1. Download the latest LTS version of Node.js from [nodejs.org](https://nodejs.org/).
+2. Follow the installation instructions. npm comes bundled with Node.js.
+
+## Verify installation
+Open a terminal and run:
+
+```bash
+node -v
+npm -v
+```
+
+Both commands should print version numbers.
+
+### Project Installation
 
 Clone the repository and install dependencies:
 
