@@ -2,7 +2,7 @@ import React from "react";
 import { t } from "../i18n";
 
 const Header = () => {
-  const companyName = "Yritysasiakas";
+  const companyName = "{companyName}";
 
   return (
     <div className="header">

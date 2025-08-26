@@ -32,3 +32,42 @@
   background-color: #003b71;
   border-color: #003b71;
 }
+
+// Modal styles
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+  .modalContainer {
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Noto IKEA", "Noto Sans", "Roboto", Arial, sans-serif;
+    padding: 1rem 2rem;
+    min-width: 300px;
+    max-width: 90vw;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+
+    p {
+      padding: 0;
+    }
+  }
+
+  .closeButton {
+    margin: 1rem auto 0 auto;
+    display: block;
+    cursor: pointer;
+    background-color: #0058a3;
+    border: 1px solid #0058a3;
+    color: #fff;
+    font-family: inherit;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+}

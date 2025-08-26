@@ -3,18 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/core": "^7.28.3",
-    "@babel/preset-env": "^7.28.3",
-    "@babel/preset-react": "^7.27.1",
-    "@babel/register": "^7.28.3",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "js-yaml": "^4.1.0",
-    "juice": "^11.0.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-modal": "^3.16.3",
     "react-scripts": "5.0.1",
     "sass": "^1.90.0",
     "web-vitals": "^2.1.4"
@@ -26,7 +22,6 @@
     "eject": "react-scripts eject",
     "export-email": "npx sass src/styles/index.scss build/email.css && node generate-email.js"
   },
-  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": [
       "react-app",

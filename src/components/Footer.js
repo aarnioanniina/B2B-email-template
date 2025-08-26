@@ -3,7 +3,7 @@ import { t } from "../i18n";
 import Icon from "./Icon";
 
 const Footer = () => {
-  const companyId = "123456"; // Replace with actual company ID if needed
+  const companyId = "{companyId}"; // Replace with actual company ID if needed
   return (
     <div className="footer-container">
       <div className="data-source">
