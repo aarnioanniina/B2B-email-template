@@ -37,11 +37,6 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to use the app.
 
-### Running Tests
-
-```bash
-npm test
-```
 
 ### Exporting HTML template file
 
