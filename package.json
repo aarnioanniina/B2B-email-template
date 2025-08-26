@@ -10,6 +10,7 @@
     "js-yaml": "^4.1.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-modal": "^3.16.3",
     "react-scripts": "5.0.1",
     "sass": "^1.90.0",
     "web-vitals": "^2.1.4"
@@ -18,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "export-email": "npx sass src/styles/index.scss build/email.css && node generate-email.js"
   },
   "eslintConfig": {
     "extends": [

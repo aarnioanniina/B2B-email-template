@@ -1,11 +1,9 @@
-@import "variables";
-
 .content {
   justify-content: center;
   text-align: start;
   display: flex;
   flex-direction: column;
-  color: $text-color;
+  color: #484848;
 
   a {
     color: black;

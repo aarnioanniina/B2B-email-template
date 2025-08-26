@@ -1,9 +1,9 @@
+import React from "react";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import "./styles/MainLayout.scss";
 
-function MainLayout() {
+const MainLayout = () => {
   return (
     <div className="mainLayout">
       <Header />
@@ -11,6 +11,5 @@ function MainLayout() {
       <Footer />
     </div>
   );
-}
-
+};
 export default MainLayout;

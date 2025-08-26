@@ -6,7 +6,8 @@
     },
     "Content": {
       "header": "Kesätervehdys IKEA Yritysmyynnistä",
-      "text1": "<p>Hej,</p>Tiesitkö, että IKEA tarjoaa <a target=\"_blank\" href=\"https://www.ikea.com/fi/fi/ikea-business/\">kattavat palvelut</a> myös yrityksille? Tämän lisäksi tarjoamme yrityksellesi 5% alennuksen ensimmäisestä tilauksestasi kun liityt IKEA Business Network -jäseneksi.",
+      "greeting": "Hej,",
+      "text1": "Tiesitkö, että IKEA tarjoaa <a target=\"_blank\" href=\"https://www.ikea.com/fi/fi/ikea-business/\">kattavat palvelut</a> myös yrityksille? Tämän lisäksi tarjoamme yrityksellesi 5% alennuksen ensimmäisestä tilauksestasi kun liityt IKEA Business Network -jäseneksi.",
       "list": {
         "heading": "Lunasta 5% etu* näin:",
         "items": [

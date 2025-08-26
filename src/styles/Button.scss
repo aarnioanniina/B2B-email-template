@@ -8,3 +8,66 @@
   font-family: "Noto IKEA", "Noto Sans", "Roboto", Arial, sans-serif;
   cursor: pointer;
 }
+
+.exportButton {
+  background-color: #0058a3;
+  color: #fff;
+  font-family: "Noto IKEA", "Noto Sans", "Roboto", Arial, sans-serif;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: 1px solid #0058a3;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  transition: background 0.2s, border 0.2s, color 0.2s;
+}
+
+.exportButton:hover {
+  background-color: #007cc7;
+  border-color: #007cc7;
+}
+
+.exportButton:active {
+  background-color: #003b71;
+  border-color: #003b71;
+}
+
+// Modal styles
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+  .modalContainer {
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Noto IKEA", "Noto Sans", "Roboto", Arial, sans-serif;
+    padding: 1rem 2rem;
+    min-width: 300px;
+    max-width: 90vw;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+
+    p {
+      padding: 0;
+    }
+  }
+
+  .closeButton {
+    margin: 1rem auto 0 auto;
+    display: block;
+    cursor: pointer;
+    background-color: #0058a3;
+    border: 1px solid #0058a3;
+    color: #fff;
+    font-family: inherit;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+}

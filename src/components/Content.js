@@ -1,16 +1,17 @@
-import "../styles/Content.scss";
+import React from "react";
 import Button from "./Button";
 import { t } from "../i18n";
 import InfoContainer from "./infoContainer";
 
-function Content() {
+const Content = () => {
   const list = t("Content.list");
   const date = "6.8.2025";
-  const companyId = "123456"; // Example company ID, replace with actual logic to get the ID
+  const companyId = "{companyId}"; // Example company ID, replace with actual logic to get the ID
 
   return (
     <div className="content">
       <h2>{t("Content.header")}</h2>
+      <p>{t("Content.greeting")}</p>
       <p dangerouslySetInnerHTML={{ __html: t("Content.text1") }} />
       <p>
         <strong> {t("Content.list.heading")}</strong>
@@ -39,6 +40,6 @@ function Content() {
       <InfoContainer />
     </div>
   );
-}
+};
 
 export default Content;
