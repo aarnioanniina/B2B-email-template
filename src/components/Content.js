@@ -6,7 +6,6 @@ import InfoContainer from "./infoContainer";
 const Content = () => {
   const list = t("Content.list");
   const date = "16.9.2025";
-  const companyId = "{companyId}"; // Example company ID, replace with actual logic to get the ID
 
   return (
     <div className="content">
@@ -22,16 +21,13 @@ const Content = () => {
         ))}
       </ul>
       <div className="button-content">
-        <Button
-          label={t("Content.buttonLabel")}
-          onClick={() => {
-            const url = t("Links.BusinessContactForm", {
-              companyId: companyId
-            });
-
-            window.open(url, "_blank", "noopener,noreferrer");
-          }}
-        />
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href={t("Links.BusinessContactForm")}
+        >
+          <Button label={t("Content.buttonLabel")} />
+        </a>
       </div>
       <p>
         {t("Content.text2")} <strong>{date}.</strong>
