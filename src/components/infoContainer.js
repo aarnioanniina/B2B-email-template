@@ -12,7 +12,7 @@ const InfoContainer = ({ label, onClick }) => {
             <p>{t("InfoContainer.Section1.text1")}</p>
           </div>
           <div>
-            <a href={t("Links.IkeaBusiness")} target="_blank" rel="noreferrer">
+            <a href={t("Links.ikeaBusiness")} target="_blank" rel="noreferrer">
               <img
                 src="https://image.news.email.ikea.com/lib/fe2b117075640475721379/m/1/1382da05-5f8d-4273-bf91-8bc61354eec1.jpg"
                 alt="ikea-office-image"
