@@ -1,16 +1,9 @@
 import React from "react";
 import { t } from "../i18n";
-
-import {
-  LinkedInIcon,
-  FacebookIcon,
-  YoutubeIcon,
-  InstagramIcon
-} from "./Icons";
+import Icon from "./Icon";
 
 const Footer = () => {
   const companyId = "{companyId}"; // Replace with actual company ID if needed
-
   return (
     <div className="footer-container">
       <div className="data-source">
@@ -24,36 +17,37 @@ const Footer = () => {
       </a>
       <div className="sosical-media">
         <a
-          href={t("Links.IkeaLinkedIn")}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="icon"
-        >
-          <LinkedInIcon />
-        </a>
-        <a
           href={t("Links.IkeaFacebook")}
           target="_blank"
           rel="noopener noreferrer"
-          className="icon"
         >
-          <FacebookIcon />
+          <Icon
+            height="40px"
+            src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/e771c26c-acb2-41f1-886e-5c5afeefac45.png"
+            alt="Facebook"
+          />
         </a>
         <a
           href={t("Links.IkeaInstagram")}
           target="_blank"
           rel="noopener noreferrer"
-          className="icon"
         >
-          <InstagramIcon />
+          <Icon
+            height="40px"
+            src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/11893e1a-cdee-4701-a66e-93b9297b9640.png"
+            alt="Instagram"
+          />
         </a>
         <a
           href={t("Links.IkeaYoutube")}
           target="_blank"
           rel="noopener noreferrer"
-          className="icon"
         >
-          <YoutubeIcon />
+          <Icon
+            height="40px"
+            src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/cd61d3f3-37a3-4d28-a0d1-6e70017fd670.png"
+            alt="YouTube"
+          />
         </a>
       </div>
       <div className="privacy-policy">
