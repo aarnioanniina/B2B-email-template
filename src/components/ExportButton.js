@@ -3,6 +3,19 @@ import Modal from "react-modal";
 
 const ExportButton = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const command = "npm run export-email";
+
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(command);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500); // Reset after 1.5s
+    } catch (err) {
+      setCopied(false);
+      alert("Failed to copy!");
+    }
+  };
 
   return (
     <>
@@ -21,7 +34,12 @@ const ExportButton = () => {
             To generate the latest <code>email.html</code> file, open your
             terminal and run:
           </p>
-          <pre>npm run export-email</pre>
+          <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+            <pre style={{ margin: 0 }}>{command}</pre>
+            <button onClick={handleCopy} className="copyButton">
+              {copied ? "Copied!" : "Copy Command"}
+            </button>
+          </div>
           <p>
             The exported file will be saved to the <code>build/email.html</code>{" "}
             folder.
