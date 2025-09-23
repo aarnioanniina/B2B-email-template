@@ -3,9 +3,11 @@
   background-color: black;
   padding: 18px 32px;
   border-radius: 50px;
-  width: 340px;
+  width: 280px;
   border: none;
   font-family: "Noto IKEA", "Noto Sans", "Roboto", Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.2px;
   cursor: pointer;
 }
 
@@ -55,7 +57,19 @@
     position: relative;
 
     p {
-      padding: 0;
+      padding: 1rem;
+    }
+    pre {
+      padding-left: 1rem;
+    }
+    .copyButton {
+      background-color: #e6f0fa;
+      border: 1px solid #3498db;
+      padding: 6px 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: 500;
+      font-family: "Fira Mono", "Consolas", monospace;
     }
   }
 

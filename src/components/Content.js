@@ -5,21 +5,21 @@ import InfoContainer from "./infoContainer";
 
 const Content = () => {
   const list = t("Content.list");
-  const date = "16.9.2025";
+  const date = " 29.9.–26.10.2025";
 
   return (
     <div className="content">
-      <h2>{t("Content.header")}</h2>
+      {/* <h2>{t("Content.header")}</h2> */}
       <p>{t("Content.greeting")}</p>
-      <p dangerouslySetInnerHTML={{ __html: t("Content.text1") }} />
-      <p>
+      <p dangerouslySetInnerHTML={{ __html: t("Content.text4") }} />
+      <p className="subheader">
         <strong> {t("Content.list.heading")}</strong>
       </p>
-      <ul className="list">
+      {/* <ul className="list">
         {list.items.map((item, index) => (
           <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
         ))}
-      </ul>
+      </ul> */}
       <div className="button-content">
         <a
           rel="noreferrer"
@@ -32,7 +32,7 @@ const Content = () => {
       <p>
         {t("Content.text2")} <strong>{date}.</strong>
       </p>
-      <p> {t("Content.text3")}</p>
+      {/* <p> {t("Content.text3")}</p> */}
       <InfoContainer />
     </div>
   );
