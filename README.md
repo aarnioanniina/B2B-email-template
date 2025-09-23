@@ -18,12 +18,16 @@ Before you begin, make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (v14 or higher recommended)
 - [npm](https://www.npmjs.com/) (v6 or higher)
+- [Visual Studio Code (VSCODE)](https://code.visualstudio.com/) (for local development and editing)
 
 ## Windows & macOS
+
 1. Download the latest LTS version of Node.js from [nodejs.org](https://nodejs.org/).
-2. Follow the installation instructions. npm comes bundled with Node.js.
+2. Download and install VSCode from [Visual Studio Code (VSCODE)](https://code.visualstudio.com/)
+3. Follow the installation instructions. npm comes bundled with Node.js.
 
 ## Verify installation
+
 Open a terminal and run:
 
 ```bash
@@ -38,6 +42,7 @@ Both commands should print version numbers.
 Clone the repository and install dependencies:
 
 Replace **your_username** with your actual GitHub username:
+
 ```bash
 git clone https://github.com/your_username/B2B-email-template.git
 cd B2B-email-template
@@ -54,16 +59,12 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to use the app.
 
-
 ### Exporting HTML template file
 
 To generate the latest email.html file, open your terminal and run:
-
 
 ```bash
 npm run export-email
 ```
 
 The exported file will be saved to the build/email.html folder.
-
-
