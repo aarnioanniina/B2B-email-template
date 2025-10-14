@@ -1,14 +1,14 @@
 {
   "fi": {
     "HeaderComponent": {
-      "header": "Töissä käy kaikki – kun tila tukee tekemistä.",
+      "header": "Töissä käy kaikki – kun tila tukee tekemistä",
       "caption": "Viestin vastaanottaja: {companyName}"
     },
     "Content": {
       "header": "Töissä käy kaikki – kun tila tukee tekemistä.",
       "greeting": "Hej,",
       "text1": "Tiesitkö, että IKEA tarjoaa <a target=\"_blank\" href=\"https://www.ikea.com/fi/fi/ikea-business/\">kattavat palvelut</a> myös yrityksille? Tämän lisäksi tarjoamme yrityksellesi 5% alennuksen ensimmäisestä tilauksestasi kun liityt IKEA Business Network -jäseneksi.",
-      "text4": "Päivitä työympäristösi MITTZON-sarjan kalusteilla, jotka on suunniteltu parantamaan hyvinvointia ja tuottavuutta. IKEA Business Network -jäsenenä saat nyt -20 % alennuksen  MITTZON-toimistokalusteista kampanja-aikana. Pääset tutustumaan tuotesarjaan <a target=\"_blank\" href=\"https://www.ikea.com/fi/fi/search/?q=mittzon\"><strong>täältä</stong></a>.",
+      "text4": "Päivitä työympäristösi joustavan MITTZON-sarjan kalusteilla, jotka soveltuvat monenlaisiin tiloihin ja käyttötarpeisiin. Monipuolinen sarja tarjoaa ratkaisut niin työ- ja neuvottelutiloihin säilytykseen kuin äänieristykseenkin. Kalusteilla on 10 vuoden takuu. IKEA Business Network -jäsenenä saat nyt -20 % alennuksen MITTZON-toimistokalusteista kampanja-aikana. Tutustu MITTZON-järjestelmään <a target=\"_blank\" href=\"https://www.ikea.com/fi/fi/search/?q=mittzon\"><strong>tästä linkistä</stong></a>.",
       "list": {
         "heading": "Ota yhteyttä helposti:",
         "items": [
@@ -16,14 +16,15 @@
           "Lähetä yhteydenottopyyntö, tilaus tai varaa aika sisustussuunnittelupalveluun alla olevasta linkistä"
         ]
       },
-      "buttonLabel": "Yhteydenottolomake",
-      "text2": "* Kampanja koskee MITTZON-sarjan tuotteita. Muiden tuotteiden hinnat normaalin hinnaston mukaan. Voimassa vain IKEA Business Network-jäsenille",
+      "buttonLabel": "Ota yhteyttä myyntiin",
+      "text2": "* Kampanja koskee MITTZON- sarjan tuotteita. Voimassa vain IKEA business network -jäsenille.",
       "text3": "Kampanja koskee MITTZON-sarjan tuotteita. Muiden tuotteiden hinnat normaalin hinnaston mukaan."
     },
     "InfoContainer": {
-      "header1": "Lisäetu: Sisustussuunnittelua veloituksetta",
+      "header1": "Varaa tapaaminen yritysmyyjän kanssa",
       "Section1": {
-        "text1": "Varaa maksuton suunnittelu ja asiantuntevan suunnittelijan apu yhteydenottolomakkeen kautta! Huomioithan, että etu koskee vain kampanja-aikana tehtyjä tilauksia."
+        "text1": "Tapaamisessa ammattitaitoiset yritysmyyjämme auttavat löytämään mallistostamme sinun yrityksellesi parhaat tuotteet. Tapaaminen yritysmyyjän kanssa 0,– saatavilla tavarataloissa, suunnittelustudioissa ja etänä.",
+        "link": "Varaa aika tapaamiseen"
       },
       "header2": "IKEA Yritystiliasiakkuus",
       "Section2": {
@@ -48,6 +49,7 @@
       "Ikea": "https://www.ikea.com/fi/fi/",
       "ikeaBusiness": "https://www.ikea.com/fi/fi/ikea-business/",
       "ikeaBusinessNetwork": "https://www.ikea.com/fi/fi/ikea-business/network/",
+      "ikeaAppoinmentBusiness": "https://www.ikea.com/fi/fi/appointment/business/",
       "BusinessContactForm": "https://survey.alchemer.eu/s3/90836405/IKEA-yrityspalvelu-yhteydenottolomake?IBN=kampanja&id=${companyId}",
       "BusinessCustomerJoin": "https://www.ikea.com/fi/fi/customer-service/services/finance-options/ikea-yritystiliasiakkuus-pubed4e8280/",
       "IkeaFacebook": "https://www.facebook.com/ikeasuomi",

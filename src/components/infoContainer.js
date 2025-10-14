@@ -10,6 +10,20 @@ const InfoContainer = ({ label, onClick }) => {
           <div>
             <h3>{t("InfoContainer.header1")}</h3>
             <p>{t("InfoContainer.Section1.text1")}</p>
+            <div className="link">
+              <a
+                rel="noreferrer"
+                href={t("Links.ikeaAppoinmentBusiness")}
+                target="_blank"
+              >
+                <p>{t("InfoContainer.Section1.link")}</p>
+                <Icon
+                  src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/2e551988-5986-4852-905b-3f1da2fcae86.png"
+                  alt="icon-arrow"
+                  height="12px"
+                />
+              </a>
+            </div>
           </div>
           <div>
             <a href={t("Links.ikeaBusiness")} target="_blank" rel="noreferrer">

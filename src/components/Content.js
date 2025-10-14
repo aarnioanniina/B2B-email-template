@@ -12,9 +12,9 @@ const Content = () => {
       {/* <h2>{t("Content.header")}</h2> */}
       <p>{t("Content.greeting")}</p>
       <p dangerouslySetInnerHTML={{ __html: t("Content.text4") }} />
-      <p className="subheader">
+      {/* <p className="subheader">
         <strong> {t("Content.list.heading")}</strong>
-      </p>
+      </p> */}
       {/* <ul className="list">
         {list.items.map((item, index) => (
           <li key={index} dangerouslySetInnerHTML={{ __html: item }} />

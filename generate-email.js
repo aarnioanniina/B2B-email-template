@@ -15,16 +15,24 @@ const html = ReactDOMServer.renderToString(React.createElement(MainLayout));
 const cssPath = path.resolve("./build/email.css");
 const css = fs.readFileSync(cssPath, "utf8");
 
+// Extract all @media queries from the CSS
+const mediaQueries =
+  css.match(/@media[^{]+\{([\s\S]+?\})\s*\}/g)?.join("\n") || "";
+
 // Inline CSS
-const inlinedHtml = juice.inlineContent(html, css);
+const inlinedHtml = juice.inlineContent(html, css, {
+  preserveMediaQueries: true
+});
 
 // Wrap and save
 const finalHtml = `
 <!DOCTYPE html>
 <html>
-<head><meta charset="utf-8" />
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
-<link href="https://www.ikea.com/global/assets/fonts/en/fonts.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
+  <link href="https://www.ikea.com/global/assets/fonts/en/fonts.css" rel="stylesheet">
+  ${mediaQueries ? `<style type="text/css">\n${mediaQueries}\n</style>` : ""}
 </head>
 <body>
 ${inlinedHtml}
