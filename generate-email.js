@@ -24,18 +24,36 @@ const inlinedHtml = juice.inlineContent(html, css, {
   preserveMediaQueries: true
 });
 
+// Post-process to make the mainLayout table fluid for Gmail desktop
+let processedHtml = inlinedHtml.replace(
+  /<table([^>]*class="[^"]*mainLayout[^"]*"[^>]*)>/g,
+  (match, attrs) => {
+    // ensure width attribute remains (likely set in JSX) and add a Gmail-friendly style
+    const desiredStyle =
+      'style="width:100%;max-width:576px;padding:1rem 2rem;margin:0 auto;box-sizing:border-box;"';
+    if (/style=\"[^\"]*\"/.test(attrs)) {
+      // replace existing style
+      attrs = attrs.replace(/style=\"[^\"]*\"/, desiredStyle);
+    } else {
+      attrs = attrs + " " + desiredStyle;
+    }
+    return "<table" + attrs + ">";
+  }
+);
+
 // Wrap and save
 const finalHtml = `
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i" rel="stylesheet">
   <link href="https://www.ikea.com/global/assets/fonts/en/fonts.css" rel="stylesheet">
   ${mediaQueries ? `<style type="text/css">\n${mediaQueries}\n</style>` : ""}
 </head>
-<body>
-${inlinedHtml}
+  <body>
+${processedHtml}
 </body>
 </html>
 `;

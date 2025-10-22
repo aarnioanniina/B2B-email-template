@@ -12,14 +12,14 @@ const Content = () => {
       {/* <h2>{t("Content.header")}</h2> */}
       <p>{t("Content.greeting")}</p>
       <p dangerouslySetInnerHTML={{ __html: t("Content.text4") }} />
-      {/* <p className="subheader">
+      <p className="subheader">
         <strong> {t("Content.list.heading")}</strong>
-      </p> */}
-      {/* <ul className="list">
+      </p>
+      <ul className="list">
         {list.items.map((item, index) => (
           <li key={index} dangerouslySetInnerHTML={{ __html: item }} />
         ))}
-      </ul> */}
+      </ul>
       <div className="button-content">
         <a
           rel="noreferrer"
@@ -29,9 +29,10 @@ const Content = () => {
           <Button label={t("Content.buttonLabel")} />
         </a>
       </div>
-      <p>
+      {/* <p>
         {t("Content.text2")} <strong>{date}.</strong>
-      </p>
+      </p> */}
+      {/* <p  dangerouslySetInnerHTML={{ __html: t("Content.text2") }}/> */}
       {/* <p> {t("Content.text3")}</p> */}
       <InfoContainer />
     </div>

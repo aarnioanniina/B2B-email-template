@@ -1,23 +1,23 @@
 {
   "fi": {
     "HeaderComponent": {
-      "header": "Töissä käy kaikki – kun tila tukee tekemistä",
+      "header": "Tila, joka tukee tekemistä",
       "caption": "Viestin vastaanottaja: {companyName}"
     },
     "Content": {
-      "header": "Töissä käy kaikki – kun tila tukee tekemistä.",
+      "header": "MITTZON -20 % + ilmainen toimitus yli 500 € tilauksille",
       "greeting": "Hej,",
       "text1": "Tiesitkö, että IKEA tarjoaa <a target=\"_blank\" href=\"https://www.ikea.com/fi/fi/ikea-business/\">kattavat palvelut</a> myös yrityksille? Tämän lisäksi tarjoamme yrityksellesi 5% alennuksen ensimmäisestä tilauksestasi kun liityt IKEA Business Network -jäseneksi.",
-      "text4": "Päivitä työympäristösi joustavan MITTZON-sarjan kalusteilla, jotka soveltuvat monenlaisiin tiloihin ja käyttötarpeisiin. Monipuolinen sarja tarjoaa ratkaisut niin työ- ja neuvottelutiloihin säilytykseen kuin äänieristykseenkin. Kalusteilla on 10 vuoden takuu. IKEA Business Network -jäsenenä saat nyt -20 % alennuksen MITTZON-toimistokalusteista kampanja-aikana. Tutustu MITTZON-järjestelmään <a target=\"_blank\" href=\"https://www.ikea.com/fi/fi/search/?q=mittzon\"><strong>tästä linkistä</stong></a>.",
+      "text4": "Päivitä työympäristösi joustavan MITTZON-sarjan kalusteilla, jotka soveltuvat monenlaisiin tiloihin ja käyttötarpeisiin. Monipuolinen sarja tarjoaa ratkaisut niin työ- ja neuvottelutiloihin, säilytykseen kuin äänieristykseenkin. Kalusteilla on 10 vuoden takuu.",
       "list": {
-        "heading": "Ota yhteyttä helposti:",
+        "heading": "IKEA Business Network -jäsenenä saat nyt:",
         "items": [
-          "Liity veloituksetta IKEA Business Network jäseneksi <a target=\"_blank\" href=\"https://www.ikea.com/fi/fi/ikea-business/network/\">täältä</a>.",
-          "Lähetä yhteydenottopyyntö, tilaus tai varaa aika sisustussuunnittelupalveluun alla olevasta linkistä"
+          "<strong>-20 % alennuksen MITTZON-toimistokalusteista</strong>  26.10.2025 asti. Tutustu MITTZON-järjestelmään <a target=\"_blank\" href=\"https://www.ikea.com/fi/fi/search/?q=mittzon\">tästä</a>.",
+          "<strong>Kuljetuspalvelut 0,- </strong> 16.11.2025 asti, kun tilauksesi arvo ylittää 500,- (alv 0 %). Tutustu kampanjaan <a target=\"_blank\" href=\"https://www.ikea.com/fi/fi/campaigns/ibn-kampanja-ilmainen-kuljetus-pub0f53cda1/\">tästä</a>."
         ]
       },
-      "buttonLabel": "Ota yhteyttä myyntiin",
-      "text2": "* Kampanja koskee MITTZON- sarjan tuotteita. Voimassa vain IKEA business network -jäsenille.",
+      "buttonLabel": "Ota yhteyttä yritysmyyntiin",
+      "text2": "* Kampanja koskee MITTZON-sarjan tuotteita. Voimassa vain IKEA Business Network -jäsenille  <strong>29.9.–26.10.2025</strong>. Ilmainen toimitus, kun tilaus ylittää 500 €.",
       "text3": "Kampanja koskee MITTZON-sarjan tuotteita. Muiden tuotteiden hinnat normaalin hinnaston mukaan."
     },
     "InfoContainer": {

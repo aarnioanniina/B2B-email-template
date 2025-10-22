@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://www.ikea.com/global/assets/fonts/en/fonts.css"
+      rel="stylesheet"
+    />
+    <style type="text/css">
+      /* Core resets helpful for Gmail web */
+      img {
+        border: 0;
+        outline: none;
+        text-decoration: none;
+        display: block;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      /* Hybrid column approach (no tables) */
+      .columns {
+        font-size: 0;
+        text-align: left;
+      }
+      .columns .col {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        max-width: 50%;
+        box-sizing: border-box;
+      }
+      /* Keep your existing media rules, but avoid pseudo-selectors */
+      @media (max-width: 640px) {
+        .info-container .grid-container .grid-item1 {
+          flex-direction: column !important;
+          align-items: center !important;
+          padding: 2rem 0 !important;
+        }
+        .info-container .grid-container .row {
+          flex-direction: column !important; /* harmless fallback */
+        }
+        .info-container .grid-container .row .grid-item {
+          border-right: none !important;
+          padding: 2rem 0 !important;
+        }
+        /* Removed :not(:last-child) and :last-child rules for Gmail reliability */
+        .footer-container .data-source p {
+          text-align: start !important;
+        }
+        .mainLayout {
+          width: 90% !important;
+        }
+        .columns .col {
+          display: block !important;
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+      }
+    </style>
+    <title>IKEA Business Email</title>
+  </head>
+  <body style="margin: 0; padding: 0; background: #ffffff">
+    <div
+      class="mainLayout"
+      style="
+        max-width: 576px;
+        width: 100% !important;
+        padding: 16px 32px;
+        margin: 0 auto;
+        box-sizing: border-box;
+      "
+    >
+      <div
+        class="header"
+        style="text-align: left; display: block; padding-bottom: 2rem"
+      >
+        <div class="header-top" style="text-align: left">
+          <a
+            rel="noreferrer"
+            href="https://www.ikea.com/fi/fi/"
+            target="_blank"
+          >
+            <img
+              src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/2a27b449-60e5-4c88-bddf-7f7286f2df68.png"
+              alt="ikea-logo"
+              style="width: 88px; height: auto"
+            />
+          </a>
+        </div>
+
+        <h1
+          class="header-title"
+          style="
+            text-align: left;
+            font-size: 36px;
+            line-height: 42px;
+            padding: 32px 0 0 0;
+            margin: 0;
+            font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+            font-weight: 700;
+            color: #000;
+          "
+        >
+          Tila, joka tukee tekemistä
+        </h1>
+
+        <a
+          rel="noreferrer"
+          href="https://www.ikea.com/fi/fi/ikea-business/"
+          target="_blank"
+        >
+          <img
+            class="office-image"
+            src="https://image.news.email.ikea.com/lib/fe2b117075640475721379/m/1/2ab2acec-fd00-4b2c-891a-8c7d9f911f84.jpg"
+            alt="ikea-office-image"
+            style="width: 100% !important; height: auto !important"
+          />
+        </a>
+
+        <p
+          class="img-text"
+          style="
+            font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+            line-height: 18px;
+            color: #484848;
+            margin: 8px 0 0 0;
+            text-align: left;
+            font-style: italic;
+            font-size: 12px;
+          "
+        >
+          Viestin vastaanottaja: ${companyName}
+        </p>
+      </div>
+
+      <div class="content" style="text-align: start; color: #484848">
+        <p
+          style="
+            margin: 0 0 16px 0;
+            font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+            font-size: 14px;
+            line-height: 24px;
+          "
+        >
+          Hej,
+        </p>
+        <p
+          style="
+            margin: 0 0 16px 0;
+            font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+            font-size: 14px;
+            line-height: 24px;
+          "
+        >
+          Päivitä työympäristösi joustavan MITTZON-sarjan kalusteilla, jotka
+          soveltuvat monenlaisiin tiloihin ja käyttötarpeisiin. Monipuolinen
+          sarja tarjoaa ratkaisut niin työ- ja neuvottelutiloihin, säilytykseen
+          kuin äänieristykseenkin. Kalusteilla on 10 vuoden takuu.
+        </p>
+        <p
+          class="subheader"
+          style="
+            font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+            font-size: 14px;
+            line-height: 24px;
+            color: #484848;
+            margin: 0 0 16px 0;
+          "
+        >
+          <strong>IKEA Business Network -jäsenenä saat nyt:</strong>
+        </p>
+        <ul class="list" style="padding: 0 0 24px 20px; margin: 0">
+          <li
+            style="
+              font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+              font-size: 14px;
+              line-height: 24px;
+            "
+          >
+            <strong>-20 % alennuksen MITTZON-toimistokalusteista</strong>
+             26.10.2025 asti. Tutustu MITTZON-järjestelmään
+            <a
+              target="_blank"
+              href="https://www.ikea.com/fi/fi/search/?q=mittzon"
+              style="color: #000000; text-decoration: underline"
+              >tästä</a
+            >.
+          </li>
+          <li
+            style="
+              font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+              font-size: 14px;
+              line-height: 24px;
+            "
+          >
+            <strong>Kuljetuspalvelut 0,- </strong> 16.11.2025 asti, kun
+            tilauksesi arvo ylittää 500,- (alv 0 %). Tutustu kampanjaan
+            <a
+              target="_blank"
+              href="https://www.ikea.com/fi/fi/campaigns/ibn-kampanja-ilmainen-kuljetus-pub0f53cda1/"
+              style="color: #000000; text-decoration: underline"
+              >tästä</a
+            >.
+          </li>
+        </ul>
+
+        <!-- Anchor styled as a button -->
+        <div class="button-content" style="padding-bottom: 24px">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://survey.alchemer.eu/s3/90836405/IKEA-yrityspalvelu-yhteydenottolomake?IBN=kampanja&amp;id=${companyId}"
+            style="
+              display: inline-block;
+              color: #ffffff;
+              background-color: #000000;
+              padding: 18px 32px;
+              border-radius: 50px;
+              font-family: 'Noto IKEA', 'Noto Sans', 'Roboto', Arial, sans-serif;
+              font-weight: 600;
+              letter-spacing: 0.2px;
+              line-height: 20px;
+              text-align: center;
+            "
+          >
+            Ota yhteyttä yritysmyyntiin
+          </a>
+        </div>
+
+        <!-- Info container with explicit borders (no pseudo-selectors) -->
+        <div
+          class="info-container"
+          style="
+            border-top: 1px solid rgb(223, 223, 223);
+            border-bottom: 1px solid rgb(223, 223, 223);
+          "
+        >
+          <div class="grid-container" style="display: block">
+            <!-- Top split row: text + image -->
+            <div
+              class="grid-item1"
+              style="
+                border-bottom: 1px solid rgb(223, 223, 223);
+                display: block;
+                padding: 2rem 0;
+              "
+            >
+              <!-- Use inline-blocks to simulate two sides -->
+              <div class="columns">
+                <div class="col" style="padding-right: 16px">
+                  <h3
+                    style="
+                      font-size: 16px;
+                      line-height: 22px;
+                      font-weight: 700;
+                      margin: 0;
+                      font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+                      color: #000;
+                    "
+                  >
+                    Varaa tapaaminen yritysmyyjän kanssa
+                  </h3>
+                  <p
+                    style="
+                      margin: 18px 0 0 0;
+                      font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+                      font-size: 14px;
+                      line-height: 24px;
+                      color: #484848;
+                    "
+                  >
+                    Tapaamisessa ammattitaitoiset yritysmyyjämme auttavat
+                    löytämään mallistostamme sinun yrityksellesi parhaat
+                    tuotteet. Tapaaminen yritysmyyjän kanssa 0,– saatavilla
+                    tavarataloissa, suunnittelustudioissa ja etänä.
+                  </p>
+                  <a
+                    rel="noreferrer"
+                    href="https://www.ikea.com/fi/fi/appointment/business/"
+                    target="_blank"
+                    style="
+                      display: inline-block;
+                      margin-top: 16px;
+                      color: #000000;
+                      font-weight: 600;
+                      font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+                      font-size: 14px;
+                      line-height: 24px;
+                    "
+                  >
+                    <span style="vertical-align: middle"
+                      >Varaa aika tapaamiseen</span
+                    >
+                    <img
+                      src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/2e551988-5986-4852-905b-3f1da2fcae86.png"
+                      alt=""
+                      style="
+                        display: inline-block;
+                        vertical-align: middle;
+                        height: 12px;
+                        width: auto;
+                        margin-left: 8px;
+                      "
+                    />
+                  </a>
+                </div>
+                <div class="col" style="padding-left: 16px; text-align: right">
+                  <a
+                    href="https://www.ikea.com/fi/fi/ikea-business/"
+                    target="_blank"
+                    rel="noreferrer"
+                    style="display: inline-block"
+                  >
+                    <img
+                      src="https://image.news.email.ikea.com/lib/fe2b117075640475721379/m/1/1382da05-5f8d-4273-bf91-8bc61354eec1.jpg"
+                      alt="ikea-office-image"
+                      style="width: 272px; max-width: 100%; height: auto"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Two-column benefits row using inline-block columns -->
+            <div class="row columns" style="width: 100%">
+              <!-- Left column -->
+              <div
+                class="grid-item col"
+                style="
+                  padding: 2rem 1rem;
+                  border-right: 1px solid rgb(223, 223, 223);
+                "
+              >
+                <div class="grid-header" style="display: inline-block">
+                  <img
+                    src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/d38f2d2a-353f-4b6a-81f6-9e94d0ff4286.png"
+                    alt=""
+                    style="
+                      display: inline-block;
+                      vertical-align: middle;
+                      height: 22px;
+                      width: auto;
+                    "
+                  />
+                  <h3
+                    style="
+                      display: inline-block;
+                      vertical-align: middle;
+                      font-size: 16px;
+                      line-height: 22px;
+                      font-weight: 700;
+                      margin: 0 0 0 8px;
+                      font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+                      color: #000;
+                    "
+                  >
+                    IKEA Yritystiliasiakkuus
+                  </h3>
+                </div>
+                <p
+                  style="
+                    margin: 18px 0 0 0;
+                    font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #484848;
+                  "
+                >
+                  Maksat kaikki ostoksesi helposti ja ilman kuluja. Saat
+                  yksilöidyn laskun ostoista kirjanpitoosi ja jopa 30 päivää
+                  maksuaikaa.
+                </p>
+                <a
+                  rel="noreferrer"
+                  href="https://www.ikea.com/fi/fi/customer-service/services/finance-options/ikea-yritystiliasiakkuus-pubed4e8280/"
+                  target="_blank"
+                  style="
+                    display: inline-block;
+                    color: #000000;
+                    font-weight: 600;
+                    font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 24px;
+                    margin-top: 16px;
+                  "
+                >
+                  <span style="vertical-align: middle">Hae yritystiliä</span>
+                  <img
+                    src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/2e551988-5986-4852-905b-3f1da2fcae86.png"
+                    alt=""
+                    style="
+                      display: inline-block;
+                      vertical-align: middle;
+                      height: 12px;
+                      width: auto;
+                      margin-left: 8px;
+                    "
+                  />
+                </a>
+              </div>
+
+              <!-- Right column -->
+              <div class="grid-item col" style="padding: 2rem 1rem">
+                <div class="grid-header" style="display: inline-block">
+                  <img
+                    src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/28c820cd-2eea-4da6-8258-9c133b42b36a.png"
+                    alt=""
+                    style="
+                      display: inline-block;
+                      vertical-align: middle;
+                      height: 22px;
+                      width: auto;
+                    "
+                  />
+                  <h3
+                    style="
+                      display: inline-block;
+                      vertical-align: middle;
+                      font-size: 16px;
+                      line-height: 22px;
+                      font-weight: 700;
+                      margin: 0 0 0 8px;
+                      font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+                      color: #000;
+                    "
+                  >
+                    IKEA Business Network
+                  </h3>
+                </div>
+                <p
+                  style="
+                    margin: 18px 0 0 0;
+                    font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #484848;
+                  "
+                >
+                  Liity nyt jäseneksi ja hyödynnä jäsentarjoukset.
+                </p>
+                <a
+                  class="link"
+                  rel="noreferrer"
+                  href="https://www.ikea.com/fi/fi/ikea-business/network/"
+                  target="_blank"
+                  style="
+                    display: inline-block;
+                    color: #000000;
+                    font-weight: 600;
+                    font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 24px;
+                    margin-top: 16px;
+                  "
+                >
+                  <span style="vertical-align: middle"
+                    >Tutustu jäsenyyteen</span
+                  >
+                  <img
+                    src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/2e551988-5986-4852-905b-3f1da2fcae86.png"
+                    alt=""
+                    style="
+                      display: inline-block;
+                      vertical-align: middle;
+                      height: 12px;
+                      width: auto;
+                      margin-left: 8px;
+                    "
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div
+        class="footer-container"
+        style="margin: 0 auto; text-align: center; padding: 32px 0"
+      >
+        <div
+          class="data-source"
+          style="
+            border-bottom: 1px solid rgb(223, 223, 223);
+            margin-bottom: 2rem;
+          "
+        >
+          <p
+            style="
+              margin: 0;
+              padding-bottom: 32px;
+              font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+              font-size: 14px;
+              line-height: 24px;
+              color: #484848;
+            "
+          >
+            Lähetämme tämän markkinointiviestin julkisista tietokannoista
+            saatavilla oleville, markkinoinnin kohderymään tunnistamillemme
+            yrityksille.
+          </p>
+        </div>
+
+        <a
+          rel="noreferrer"
+          href="https://www.ikea.com/fi/fi/"
+          target="_blank"
+          style="display: inline-block"
+        >
+          <img
+            src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/2a27b449-60e5-4c88-bddf-7f7286f2df68.png"
+            alt="ikea-logo"
+            style="width: 88px; height: auto; margin: 0 auto"
+          />
+        </a>
+
+        <!-- Socials (inline-block, no flex) -->
+        <div
+          class="sosical-media"
+          style="text-align: center; padding: 24px 0; font-size: 0"
+        >
+          <a
+            href="https://www.facebook.com/ikeasuomi"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="display: inline-block; margin: 0 8px"
+          >
+            <img
+              src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/e771c26c-acb2-41f1-886e-5c5afeefac45.png"
+              alt="Facebook"
+              style="height: 40px; width: auto"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/ikeasuomi/#/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="display: inline-block; margin: 0 8px"
+          >
+            <img
+              src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/11893e1a-cdee-4701-a66e-93b9297b9640.png"
+              alt="Instagram"
+              style="height: 40px; width: auto"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/ikeasuomi"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="display: inline-block; margin: 0 8px"
+          >
+            <img
+              src="https://image.news.email.ikea.com/lib/fe30117075640475711d75/m/2/cd61d3f3-37a3-4d28-a0d1-6e70017fd670.png"
+              alt="YouTube"
+              style="height: 40px; width: auto"
+            />
+          </a>
+        </div>
+
+        <!-- Footer links (inline-block, no flex) -->
+        <div class="privacy-policy" style="text-align: center; font-size: 0">
+          <a
+            target="_blank"
+            href="https://www.ikea.com/fi/fi/ikea-business/contact-us/"
+            rel="noreferrer"
+            style="
+              display: inline-block;
+              font-size: 12px;
+              font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+              color: #484848;
+              padding: 0 12px;
+              border-right: 1px solid #888;
+            "
+            >Ota meihin yhteyttä</a
+          >
+          <a
+            target="_blank"
+            href="https://www.ikea.com/fi/fi/customer-service/terms-conditions/"
+            rel="noreferrer"
+            style="
+              display: inline-block;
+              font-size: 12px;
+              font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+              color: #484848;
+              padding: 0 12px;
+              border-right: 1px solid #888;
+            "
+            >Ehdot</a
+          >
+          <a
+            target="_blank"
+            href="https://www.ikea.com/fi/fi/customer-service/privacy-security/"
+            rel="noreferrer"
+            style="
+              display: inline-block;
+              font-size: 12px;
+              font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+              color: #484848;
+              padding: 0 12px;
+              border-right: 1px solid #888;
+            "
+            >Yksityisyys ja tietosuoja</a
+          >
+          <a
+            target="_blank"
+            href="https://survey.alchemer.eu/s3/90872184/IKEA-B2B-Marketing-Email-Unsubscribe-Link?id=${companyId}"
+            rel="noreferrer"
+            style="
+              display: inline-block;
+              font-size: 12px;
+              font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+              color: #484848;
+              padding: 0 12px;
+            "
+            >Lopeta uutiskirjeen tilaus</a
+          >
+        </div>
+
+        <div class="info" style="padding: 24px 0 0 0">
+          <p
+            style="
+              margin: 0;
+              font-family: 'Noto IKEA', 'Noto Sans', Arial, sans-serif;
+              line-height: 24px;
+              font-size: 12px;
+              color: #767676;
+            "
+          >
+            Tämän sähköpostin on lähettänyt IKEA © Inter IKEA Systems B.V. 2025
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

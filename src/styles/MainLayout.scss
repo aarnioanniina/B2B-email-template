@@ -1,5 +1,16 @@
 .mainLayout {
-  width: 576px;
+  /* mobile-first: full width with a max-width for desktop */
+  width: 100%;
+  max-width: 576px;
   padding: 1rem 2rem;
   margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (min-width: 641px) {
+  .mainLayout {
+    /* on larger screens keep the max-width — no change needed, but explicit for clarity */
+    width: 100%;
+    max-width: 576px;
+  }
 }
